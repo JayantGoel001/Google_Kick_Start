@@ -37,7 +37,7 @@ int32_t main() {
         int n,k,p;
         cin >> n>>k>>p;
         int ar[n][k];
-        int dp[n+1][p*k+1];
+        int dp[n+1][p+1];
         memset(dp,0, sizeof(dp));
         dp[0][0]=0;
         for (int i = 0; i < n; ++i) {
